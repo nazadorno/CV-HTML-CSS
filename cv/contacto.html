@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="../CSS/estilo.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        </style>
+    </head>
+    <body>
+        <h1 style="color:#960505;">Contacto</h1>
+        <h2 style="background-color:#da8c8c">Ingresá tus datos:</h2> 
+        <form method="get" action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required/> <br><br><br>
+
+            <label for="mail">Mail:</label>
+            <input type="mail" name="mail" placeholder="ingresá aquí tu mail..." required/> <br><br><br>
+
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento" /> <br><br><br>
+
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario"></textarea> <br><br><br>
+
+            <input type="radio" name="tipo" value="Consulta" />Consulta
+            <input type="radio" name="tipo" value="Error" />Error <br><br><br>
+
+            <label>Domicilio</label>
+            <select name="domicilio">
+                <option value="caba">CABA</option>
+                <option value="gba">GBA</option>
+                <option value="otro">Otro</option>
+            </select>
+            <input type="submit" value="Enviar" />
+        </form> 
+        <br><br><br><br>
+        <div id="menu">
+          <a href="../index.html">Volver a inicio</a>
+        </div>
+    </body>
+</html>
