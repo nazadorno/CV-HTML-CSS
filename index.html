@@ -3,20 +3,45 @@
   <head>
     <title> CV LNA </title>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-	<link rel="stylesheet" href="CSS/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilo.css">
   </head>
   <body>
-    <div id="nombre">
-	  <h2>Lucila Nazarena Adorno</h2>
-	</div>
-	<div id="foto">
-	  <img src="cv/img.jpg" width="270" height="200"/> </br>
-    </div>
-    <div id="datos">
+
+    <div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		  <h1 class="display-4">Lucila Nazarena Adorno</h1>
+		  <p class="lead">CV - CommIT 2020</p>
+		</div>
+	</div>  
+	
+    <div class="container-fluid">
+		<div class="row">
+		  <div class="col md-8">
+			<div id="datos">
+				<h4 class="dat">Nacionalidad</h4>
+				<p>Argentina</p>
+				<h4 class="dat">Fecha de nacimiento</h4>
+				<p>26/03/1992</p>
+				<h4 class="dat">Teléfono</h4>
+				<p>1163728378</p>
+				<h4 class="dat">Correo electónico</h4>
+				<p>naza.adorno@gmail.com</p>
+				<h4 class="dat">Domicilio</h4>
+				<p>Dr. Carbone 3464 1 C, Santos lugares, Tres de febrero, GBA.</p><br>
+			  </div>
+		  </div>		 
+		  <div class="col md-4">
+			<img src="cv/img.jpg" width="270" height="200"/>
+		  </div>
+		</div>
+	  </div> 
+
+	<!--div id="datos">
 	  <h4 class="dat">Nacionalidad</h4>
 	  <p>Argentina</p>
 	  <h4 class="dat">Fecha de nacimiento</h4>
@@ -27,13 +52,32 @@
 	  <p>naza.adorno@gmail.com</p>
 	  <h4 class="dat">Domicilio</h4>
 	  <p>Dr. Carbone 3464 1 C, Santos lugares, Tres de febrero, GBA.</p><br>
-	</div>
+	</div-->
 
-	<div id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">LNA</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="cv/Estudios.html">Estudios</a>
+			<a class="nav-link" href="cv/Experiencialaboral.html">Experiencia Laboral</a>
+			<a class="nav-link" href="cv/contacto.html">Contacto</a>
+		  </div>
+		</div>
+	  </nav>
+
+	<!--div id="menu">
 	  <a href="cv/Estudios.html">Estudios</a> 
 	  <a href="cv/Experiencialaboral.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experiencia laboral</a>
 	  <a href="cv/tabla.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tabla</a> 
 	  <a href="cv/contacto.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contacto</a> <br/>
-	</div>	
+	</div-->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>	
    </body>
 </html>	 
