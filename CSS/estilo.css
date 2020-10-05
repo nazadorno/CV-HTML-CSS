@@ -32,4 +32,6 @@ border: 2px dotted black;
 font-size: 18px;
 text-align: left;    
 }
-
+.jumbotron {
+text-align: left;
+}
